@@ -3,7 +3,7 @@ from patchright.sync_api import expect
 import time
 
 
-def test_brotector():
+def fingerprint_com():
     browser = setup_browser()
 
     page = browser.pages[0]
@@ -34,4 +34,4 @@ def test_brotector():
 
 
 if __name__ == "__main__":
-    test_brotector()
+    fingerprint_com()
